@@ -1,0 +1,252 @@
+.w{
+    width: 1200px;
+    margin: 0 auto;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.shortcut{
+    height: 31px;
+    background-color: #f1f1f1;
+    line-height: 31px;
+
+}
+.shortcut ul li {
+    float: left;
+}
+.style_red{
+    color: #c81623;
+}
+/* //选择所有偶数的 */
+.shortcut .fr ul li:nth-child(even){
+width: 1px;
+height: 12px;
+background-color: #666666;
+margin: 9px 15px 0;
+}
+.arrow-icon::after{
+    content: '▽';
+    margin-left: 6px;
+}
+
+/* 头部 */
+header{
+    position: relative;
+    height: 105px;
+    /* background-color: pink; */
+}
+.logo{
+    position: absolute;
+    top: 25px;
+    width: 171px;
+    height: 61px;
+    /* background-color: skyblue; */
+}
+.logo a {
+    display: block;
+    width: 171px;
+    height: 61px;
+    background: url(/images/logo\ .png ) no-repeat;
+    font-size: 0;
+}
+.search{
+    position: absolute;
+    width: 538px;
+    top: 25px;
+    height: 36px;
+    border: 2px solid #b1191a;
+    left: 346px;
+}
+.search input {
+    float: left;
+    width: 454px;
+    height: 32px;
+    padding-left: 10px;
+
+}
+.search button{
+    float: left;
+    width: 80px;
+    height: 32px;
+    background-color: #b1191a;
+   color: #f1f1f1;
+}
+.hotwords{
+    position: absolute;
+    top: 66px;
+    left: 346px;
+    margin-left: 100px;
+    /* padding-left: 10px; */
+}
+.hotwords a{
+    padding-left: 5px;
+}
+.shopcar{
+    position: absolute;
+    width: 140px;
+    height: 35px;
+    border: 1px solid #dfdfdf;
+    background-color: #f7f7f7;
+    right: 60px;
+    top: 25px;
+    text-align: center;
+    line-height: 35px;
+}
+.shopcar::before{
+    content: "🛒";
+    margin-left: 5 px;
+    color: #c81623;
+
+}
+.shopcar::after{
+    content: "▽";
+    font-size: 16px;
+}
+.count{
+    position: absolute;
+    line-height: 14px;
+    top: -3px;
+    right: 24px;
+    height: 14px;
+    color: #fff;
+    background-color: #c81624;
+    padding: 0 5px;
+    border-radius: 7px 7px 7px 0;
+}
+.nav{
+    height: 47px;
+    border-bottom: 2px solid #c81624;
+}
+.dropdowm{
+    float: left;
+    width: 201px;
+    height: 47px;
+    background-color: #f34654;
+    /* margin-left: 33px; */
+}
+.navitems{
+    float: left;
+}
+.dropdowm dt{
+    width: 100%;
+    height: 100%;
+    line-height: 45px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+}
+.dropdowm dt:hover{
+    
+}
+.dropdowm dd{
+    /* display: none; */
+    width: 100%;
+    height: 465px;
+    background-color: #f50909 ;
+}
+.dropdowm dd ul li{
+    position: relative;
+    height: 31px;
+    line-height: 31px;
+    margin-left: 2px;
+    padding-left: 10px;
+}
+.dropdowm dd ul li::after{
+    position: absolute;
+    content: ">";
+    color: #fff;
+    right: 10px;
+
+
+}
+.dropdowm dd ul li:hover{
+background-color: #fff;
+}
+.dropdowm dd ul li a{
+    font-size: 14px;
+    color: #fff;
+ 
+}
+.dropdowm dd ul li:hover a{
+    color: rgb(56, 19, 192);
+    }
+
+.navitems ul li{
+float: left;
+margin-left: 35px;
+}
+.navitems ul li a{
+    display: inline-block;
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+}
+
+.navitems ul li a:hover{
+    color: rgb(221, 17, 34);
+    }
+    .footer{
+        height: 415px;
+        background-color: #f6f1f1;
+        padding-top: 30px;
+    }
+    .mod_service{
+        height: 80px;
+        border-bottom: 1px solid #ccc;
+    }
+    .mod_service ul li{
+        float: left;
+        width: 300px;
+        height: 50px;
+      
+        padding-left: 35px;
+    }
+    .mod_service ul li h5{
+        float: left;
+        width: 50px;
+        height: 50px;
+        background:url(/images/icons.png) no-repeat -252px -2px;
+        margin-right: 8px;
+    }
+    .service_txt h4{
+        margin-top: 5px;
+        font-size: 14px;
+    }
+    .service_txt p{
+        font-size: 12px;
+    }
+    .mod_help{
+        height: 185px;
+        border-bottom: 1px solid #ccc;
+        margin-top: 20px; 
+        margin-left: 50px;
+    }
+    .mod_help dl{
+        float: left;
+        width: 200px;
+    }
+    .mod_help dl:nth-child(6){
+        float: left;
+        width: 90px;
+        text-align: center;
+    }
+    .mod_help dl dt{
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .links{
+        margin-top: 20px;
+        text-align: center;
+
+    }
+    .links a {
+        padding:0 3px;
+    }
+    .copyright p{
+        margin-top: 20px;
+        font-size: 8px;
+    }
+    
